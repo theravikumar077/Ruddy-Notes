@@ -3,7 +3,7 @@
 A clean, colorful, and mobile-friendly notes app built using *HTML, CSS, and JavaScript* — inspired by the simplicity of Google Keep, with a personal emotional touch.
 
 > *Why "Ruddy"?*
-> This project is named after someone special — Rudrakshi — who unknowingly became the spark behind this idea. Though the love is one-sided, the inspiration is endless. 💖
+> This project is named after someone special who unknowingly became the spark behind this idea. 
 
 ## 🌟 Features
 
