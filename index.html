@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Notes</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><i class="ri-bubble-chart-fill"></i> 𝑀𝑦 𝑁𝑜𝑡𝑒𝑠...</h1>
+      <div class="filters">
+        <button class="filter active">All</button>
+  
+      </div>
+    </header>
+
+    <main id="notes-container">
+      <!-- Notes will appear here -->
+    </main>
+
+    <button id="add-note-btn">+</button>
+
+    <div id="note-modal" class="modal">
+      <div class="modal-content">
+        <textarea id="note-input" placeholder="Write your note here..."></textarea>
+        <button id="save-note">Save</button>
+        <button id="close-modal">Cancel</button>
+      </div>
+    </div>
+
+    <button id="toggle-theme">Dark Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
